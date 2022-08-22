@@ -1,0 +1,194 @@
+header{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    
+    width: 100vw;
+    margin-top: 0px;
+    background-color: white;
+    height: 10vh;
+}
+.logo{
+   margin-left: 78px;
+    margin-right: 700px;
+}
+nav button{
+    position: absolute;
+    width: 95px;
+    height: 38px;
+    
+    top: 10px;
+    
+    background: #FF6680;
+    border-radius: 6px;
+    margin-left: 20px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav li {
+    display: inline-block;
+    text-decoration: none;
+    
+}
+a{
+    text-decoration: none;
+}
+main {
+    background-image: url(../img/backgroung-1.png);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    background-color: rgba(0,0,0,1);
+}
+main h1{
+   
+}
+
+.categories{
+    margin-top: 50px;
+}
+
+.categories h1{
+    text-align: center;
+}
+.categories-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0px;
+    justify-content: space-around;
+
+}
+.categories-card{
+    justify-content: center;
+}
+.calender{
+    display: flex;
+    flex-direction: row;
+}
+.courses{
+    background: #F9F9F9;
+    width: 100vw;
+    padding: 50px 0px 50px;
+
+}
+
+.course-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.courses h3{
+    text-align: center;
+    font-weight: bolder;
+}
+.stars{
+    display: inline-block;
+}
+
+.course-card h3, p{
+    text-align: left;
+}
+.course-card button{
+width: 304px;
+height: 38px;
+background: #FF6680;
+border-radius: 6px;
+position: absolute;
+}
+
+.microlearning{
+width: 100vw;
+height: 100vh;
+
+background: linear-gradient(74.71deg, #1F8882 61.16%, #FF6680 93.46%);
+}
+
+.microlearning-content{
+width: 95%;
+color: white;
+margin-top: 130px;
+margin-bottom: 130px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.sub{
+    display: flex;
+    flex-direction: row;
+   
+}
+.featured-courses{
+    width: 100vw;
+    height: 100vh;
+    padding: 50px 0px 50px;
+
+}
+.featured-courses h3{
+    text-align: center;
+    font-weight: bolder;
+
+}
+.featured-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.access{
+width: 165.62px;
+height: 35.63px;
+background: #FF6680;
+border-radius: 6px;
+}
+.network{
+    width: 100vw;
+    height: 380px;
+    padding: 50px 0px 50px;
+}
+.network h3{
+    text-align: center;
+    font-weight: bolder;
+}
+.networks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+footer h5{
+    color: #FF6680;
+    
+}
+.company ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.company ul li a{
+    color: white;
+    text-decoration: none;
+}
+.service ul{
+    display: flex;
+    flex-direction: column;
+
+}
+.office p{
+    color: white;
+}
